@@ -1,0 +1,21 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logosito{
+    height: 100px;
+    padding-left: 30px;
+}
+
+
+.nomesito{
+    font-size: 100px;
+    height: 300px;
+    padding: 30px;
+    
+}
+/*Parte centrale*/
+*main{
+    margin-inline-start:;
+}
