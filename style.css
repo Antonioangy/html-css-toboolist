@@ -25,6 +25,13 @@ main{
     margin-left: 400px;
     margin-right: 400px;;
 }
+.addsection{background-color:
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
 
 .nonfatto{
     color: red;
@@ -33,7 +40,16 @@ main{
 
 .fatto{
     color: green;
-    padding: 10px
+    padding: 10px;
+    border: 1px solid rgb(0, 122, 0);
+    font-weight: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    
+
 }
 
 .boxazzurra{
@@ -47,4 +63,44 @@ main{
 
 .compiti{
     padding: 10px;
+}
+
+.boxviola{ background-color:rgb(122, 14, 113);
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.boxverde{ background-color:rgb(15, 129, 82);
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.boxarancione{ background-color:rgba(255, 166, 0, 0.966);
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.boxrosa{ background-color:rgb(202, 68, 169);
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.boxlime{ background-color:lime;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+
 }
