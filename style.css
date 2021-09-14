@@ -1,13 +1,18 @@
 *{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-
+/* testo spostato */
+main{margin-left:25%;
+    
+}
+/* logo sito + nome sito */
 .logosito{
     height: 100px;
     padding-left: 30px;
 }
-
 
 .nomesito{
     font-size: 100px;
@@ -16,6 +21,30 @@
     
 }
 /*Parte centrale*/
-*main{
-    margin-inline-start:;
+main{
+    margin-left: 400px;
+    margin-right: 400px;;
+}
+
+.nonfatto{
+    color: red;
+    padding: 10px;
+}
+
+.fatto{
+    color: green;
+    padding: 10px
+}
+
+.boxazzurra{
+    background-color:cornflowerblue;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.compiti{
+    padding: 10px;
 }
