@@ -1,35 +1,67 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /* testo spostato */
-main{margin-left:25%;
+main {
+    margin-left:25%;
+    margin-top:25;
+    background-color: white;
     
 }
-/* logo sito + nome sito */
-.logosito{
+/* header */
+header{
+    background-color: white;
+}
+header img {
+    vertical-align: middle;
+}
+
+
+header span {
+    line-height: 30px;
+    vertical-align: middle;
+    
+}
+
+.logosito {
     height: 100px;
     padding-left: 30px;
+    padding-top: 10px;
+    
 }
 
 .nomesito{
-    font-size: 100px;
-    height: 300px;
-    padding: 30px;
+    font-size: 60px;
+    height: 30px;
+    padding-top: 10px;
+    
     
 }
+
+/* navigazione */
+#nav {
+    padding: 10px 10px;
+    
+}
+
+
+
 /*Parte centrale*/
 main{
+    background-color: white;
+    margin-top: 100px;
     margin-left: 400px;
     margin-right: 400px;;
 }
-.addsection{background-color:
-    font-size: 15px;
-    color: white;
+.addsection{
+    background-color:grey;
     border-radius: 10px;
     padding: 5px;
+    color:white 
+    
 
 }
 
@@ -39,15 +71,9 @@ main{
 }
 
 .fatto{
-    color: green;
-    padding: 10px;
-    border: 1px solid rgb(0, 122, 0);
-    font-weight: 50%;
-    border-radius: 50%;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    text-align: center;
+    padding: 5px 7px;
+    border: 1px;
+    border-radius:50%;
     
 
 }
